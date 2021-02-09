@@ -10,7 +10,7 @@ from keras.layers import Dense,LSTM
 import matplotlib.pyplot as plt
 
 #printing dataset
-df=pd.read_excel("C:\python_files\stock\data\AAPL.xlsx")
+df=pd.read_excel(".\data\AAPL.xlsx")
 print(df)
 
 #visualizing close values
